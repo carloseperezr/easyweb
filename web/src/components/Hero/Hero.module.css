@@ -1,0 +1,146 @@
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #F196E4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.wrapper{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heroTextWrapper{
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.heroTitle{
+  letter-spacing: 10px;
+  word-spacing: 15px;
+  font-size: 60px;;
+  font-family: sans-serif;
+  color:#FFFEFF;
+  height: 400px;
+}
+
+h1{
+  margin: 0;
+}
+
+.easyFont1{
+  font-family: "Barriecito";
+}
+.easyFont2{
+  font-family: "Bitter";
+}
+.easyFont3{
+  font-family: "Caveat";
+}
+.easyFont4{
+  font-family: "Kalnia";
+}
+.easyFont5{
+  font-family: "Lobster";
+}
+.easyFont6{
+  font-family: "Protest";
+}
+.easyFont7{
+  font-family: "Quicksand";
+}
+
+.heroTitle span{
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, #F9DA4A 70%, #F9DA4A 100%);
+  display: inline-block;
+}
+
+.heroImgWrapper{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroIMG{
+  max-width: 100%;
+}
+
+.heroInfo{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.heroInfo h2{
+  font-family: Caveat;
+  font-weight: bolder;
+  font-size: 48px;
+  color: #272727;
+}
+
+.heroInfo p{
+  color: #272727;
+  font-family: Bitter;
+  margin-top: -20px;
+  font-size: 24px;
+}
+
+.heroTextWrapper button{
+  cursor: pointer;
+  font-size: 18px ;
+  padding: 15px 50px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.465);
+  background-color: #FF8000;
+  font-family: Bitter;
+  font-weight: bolder;
+  transition: background-color .3s ease-in-out;
+}
+
+.heroTextWrapper button:hover{
+  transition: background-color .3s ease-in-out;
+  background-color: #FFD7B0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    padding-top: 10px;
+  }
+  .heroTextWrapper {
+    width: 100%;
+    height: auto;
+  }
+  .heroTitle {
+    font-size: 9vw;
+    letter-spacing: 5px;
+    word-spacing: 8px; 
+    height: auto; 
+  }
+  .heroImgWrapper {
+    width: 50%; 
+  }
+  .heroInfo {
+    width: 100%;
+  }
+
+  .heroTitle span {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 70%, #F9DA4A 70%, #F9DA4A 100%);
+    display: inline-block;
+    line-height: 1;
+  }
+  
+}

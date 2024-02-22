@@ -1,0 +1,22 @@
+.NavContainer{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  color: white;
+  border-bottom: 2px solid white;
+  position: fixed;
+  top: 0  ;
+}
+
+.linkContainer{
+  display: flex;
+}
+
+.link{
+  padding: 10px 10px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
