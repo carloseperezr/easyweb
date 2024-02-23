@@ -37,13 +37,13 @@ export const Hero = () => {
             </h1>
           </div>
           <div className={`${classes.heroInfo}`}>
-            <h2>Un tipo de agencia digital...algo asi</h2>
+            <h2>Un tipo de agencia digital...algo asi.</h2>
             <p>Revisiones ilimitadas y una tarifa mensual fija.</p>
           </div>
           <button>Ver detalles</button>
         </div>
         <div className={`${classes.heroImgWrapper}`}>
-          <HeroIMG img={"https://i.postimg.cc/tRSsvPPq/1.png"} />
+          <HeroIMG img={"https://i.postimg.cc/tgt8GYV2/easy-web.png"} />
         </div>
       </div>
     </div>
