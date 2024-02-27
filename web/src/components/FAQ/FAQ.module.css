@@ -83,6 +83,7 @@ padding-top: 100px;
 
 .faqIcon{
   color: gray;
+  width: 10px;
 }
 
 @media screen and (max-width:768px) {

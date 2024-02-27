@@ -39,9 +39,8 @@ export const HowItWorks = ({ howItWorksRef }) => {
                 ¿Necesitas un sitio web llamativo, una buena UI/UX o simplemente
                 renovar tu página actual?
               </strong>
-              Bienvenido a casa. Somos EasyWeb, tu socio en la creación digital
-              por una tarifa fija mensual. Nuestro objetivo es hacerte la vida
-              más fácil.
+              Bienvenido a casa, somos EasyWeb... tu socio en la creación
+              digital. Nuestro objetivo es hacerte la vida más fácil.
             </p>
           </div>
         </div>
@@ -53,33 +52,40 @@ export const HowItWorks = ({ howItWorksRef }) => {
         </Slide>
         <Slide direction={"up"} triggerOnce={true}>
           <div className={`${classes.tS}`}>
-            <h2 className={`${classes.tSTitle}`}>
-              Desde diseño web hasta páginas <br />
-              impactantes, estamos aquí para ti.
-            </h2>
+            <h2 className={`${classes.tSTitle}`}>Planes</h2>
             <div className={`${classes.tSServices}`}>
               <div className={`${classes.tSSection}`}>
-                <h3>Diseno</h3>
+                <div className={classes.plansTitle}>
+                  <h3>Básico</h3>
+                  <h4>$90</h4>
+                </div>
                 <ul>
-                  <li>uno</li>
-                  <li>dos</li>
-                  <li>tres</li>
+                  <li>Creación de sitio web</li>
+                  <li>Máximo 3 vistas</li>
+                  <li>5 Correcciones</li>
                 </ul>
               </div>
               <div className={`${classes.tSSection}`}>
-                <h3>Web</h3>
+                <div className={classes.plansTitle}>
+                  <h3>Avanzado</h3>
+                  <h4>$120</h4>
+                </div>
                 <ul>
-                  <li>uno</li>
-                  <li>dos</li>
-                  <li>tres</li>
+                  <li>Creación de sitio web</li>
+                  <li>Máximo 5 vistas</li>
+                  <li>7 Correcciones</li>
                 </ul>
               </div>
               <div className={`${classes.tSSection}`}>
-                <h3>UI/UX</h3>
+                <div className={classes.plansTitle}>
+                  <h3>Adicionales</h3>
+                  <h4>$12</h4>
+                  <small>c/u</small>
+                </div>
                 <ul>
-                  <li>uno</li>
-                  <li>dos</li>
-                  <li>tres</li>
+                  <li>Modificaciones</li>
+                  <li>Creación de plantilla de correo electrónico</li>
+                  <li>Despliegue y Administración de página web</li>
                 </ul>
               </div>
             </div>

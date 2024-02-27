@@ -43,8 +43,8 @@ export const Hero = ({ heroRef, benefitsRef }) => {
             </h1>
           </div>
           <div className={`${classes.heroInfo}`}>
-            <h2>Un tipo de agencia digital o algo así</h2>
-            <p>Te ayudamos a crear tu presencia en línea.</p>
+            <h2>Te ayudamos a construir tu Página Web</h2>
+            <p>creando tu presencia en línea.</p>
           </div>
           <button onClick={handleButtonClick}>Ver detalles</button>
         </div>

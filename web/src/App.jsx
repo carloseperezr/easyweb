@@ -7,6 +7,7 @@ import { Hero } from "./components/Hero/Hero";
 import { HowItWorks } from "./components/HowItWorks/HowItWorks";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Works } from "./components/Works/Works";
+import WhatsAppButton from "./components/WhatsApp/WhatsAppButton";
 
 function App() {
   const heroRef = useRef(null);
@@ -31,6 +32,7 @@ function App() {
       <Benefits benefitsRef={benefitsRef} />
       <Works worksRef={worksRef} />
       <FAQcontainer />
+      <WhatsAppButton phoneNumber={573196756495} />
       <Footer
         scrollToHero={() => scrollToRef(heroRef)}
         scrollToHowItWorks={() => scrollToRef(howItWorksRef)}

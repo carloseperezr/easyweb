@@ -13,6 +13,7 @@ export const NavBar = ({
     <div className={`${classes.NavContainer}`}>
       <div className={`${classes.NavLogo}`}>
         <img
+          onClick={scrollToHero}
           src="https://i.postimg.cc/4ymdG1h3/memphis-emoji-smiled-face-1.png"
           alt="EasyWeb Logo"
         />

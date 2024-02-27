@@ -20,7 +20,7 @@ export const Works = ({ worksRef }) => {
       </svg>
 
       <div>
-        <h2>Ultimos Trabajos</h2>
+        <h2>Últimos Trabajos</h2>
       </div>
       <Slide direction="up" triggerOnce={true}>
         <div className={`${classes.worksSection}`}>
@@ -45,13 +45,13 @@ export const Works = ({ worksRef }) => {
               img={"https://i.postimg.cc/ht4Ldkxz/CONO-RCAcc-1.jpg"}
               title={"RCAcc"}
               text={
-                "Desarrollo de sitio web audaz y fresco, con una paleta de colores vibrantes que reflejan la identidad única de la marca"
+                "Desarrollo de sitio web audaz y fresco, con una paleta de colores vibrantes que reflejan la identidad única de la marca."
               }
             />
             <Square
               title={"Equilibrium"}
               text={
-                "Creación de identidad y página web basada en el minimalismo y elegancia que su marca refleja"
+                "Creación de identidad y página web basada en el minimalismo y elegancia que su marca refleja."
               }
               img={"https://i.postimg.cc/nLf1KKrg/Equilibrium-Banner.png"}
             />

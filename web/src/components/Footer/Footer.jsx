@@ -1,5 +1,6 @@
 import { NavLink } from "../NavBar/NavLink";
 import classes from "./Footer.module.css";
+import { FooterLinks } from "./FooterLinks";
 
 export const Footer = ({
   scrollToHero,
@@ -25,13 +26,15 @@ export const Footer = ({
         </div>
         <div className={`${classes.footerInfo}`}>
           <h4>We make the web a bit easier.</h4>
-          <button className={`${classes.footerBtn}`}>Contactanos</button>
+          <button className={`${classes.footerBtn}`}>
+            <a href="mailto:easywebcontacto7@gmail.com">Contactanos</a>
+          </button>
         </div>
         <div className={`${classes.footerLinks}`}>
-          <NavLink text={"Inicio"} handleClick={scrollToHero} />
-          <NavLink text={"Servicio"} handleClick={scrollToHowItWorks} />
-          <NavLink text={"Beneficios"} handleClick={scrollToBenefits} />
-          <NavLink text={"Recientes"} handleClick={scrollToWorks} />
+          <FooterLinks text={"Inicio"} handleClick={scrollToHero} />
+          <FooterLinks text={"Servicio"} handleClick={scrollToHowItWorks} />
+          <FooterLinks text={"Beneficios"} handleClick={scrollToBenefits} />
+          <FooterLinks text={"Recientes"} handleClick={scrollToWorks} />
         </div>
       </div>
     </div>
