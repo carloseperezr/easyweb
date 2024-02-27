@@ -16,14 +16,14 @@ export const CardsContainer = () => {
         img={"https://i.postimg.cc/6QQbW5Rt/1.png"}
         title={"Solicita"}
         text={
-          "¡Perfecto, estás dentro! Ahora es el momento de enviarnos tus tareas de diseño. ¿Necesitas un concepto de marca? ¿Un diseño de página de inicio elegante? ¿O tal vez un folleto tríptico llamativo?"
+          "¡Perfecto, estás dentro! Ahora es el momento de enviarnos tus tareas de diseño. ¿Necesitas un concepto de marca? ¿Un diseño de página de inicio elegante? ¿O tal vez un folleto tríptico llamativo?."
         }
       />
       <Cards
         img={"https://i.postimg.cc/zG7PYRyx/3.png"}
         title={"Revisa"}
         text={
-          "¡Espera un momento! En tan solo 48 horas, tendrás tu primera vista previa de tu diseño completado. Y si no es amor a primera vista, ¡no te preocupes! Podemos ajustarlo y afinarlo hasta que quede perfecto; esa es la belleza de las revisiones ilimitadas"
+          "¡Espera un momento! En tan solo 48 horas, tendrás tu primera vista previa de tu diseño completado. Y si no es amor a primera vista, ¡no te preocupes! Podemos ajustarlo y afinarlo hasta que quede perfecto; esa es la belleza de las revisiones ilimitadas."
         }
       />
     </div>

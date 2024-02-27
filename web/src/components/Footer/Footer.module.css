@@ -1,0 +1,90 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+.container svg{
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 79%, rgba(0,0,0,1) 100%);
+}
+
+.footerColumns{
+  color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerIMG img{
+  width: 200px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.footerLinks{
+  width: 200px;
+  padding-right: 20px;
+  text-align: center;
+  font-family: "Bitter";
+  font-size: 20px;
+  text-align: start;
+  color: gray;
+}
+
+.footerInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerColumns h4{
+  padding: 0px;
+  margin: 0px;
+  font-size: 36px;
+  font-family: "Caveat";
+  text-align: center;
+}
+
+.footerBtn{
+  line-height: 1rem;
+  padding: 10px 60px;
+  border-radius: 8px;
+  background-color: #FF8000;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px;
+  transition: .3s ease-in-out all;
+  color: black;
+}
+
+.footerBtn:hover{
+  transition: .3s ease-in-out all;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width:768px) {
+  .footerColumns{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footerIMG img{
+    padding: 0;
+  }
+
+  .footerColumns h4{
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .footerLinks{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 0px;
+  }
+}

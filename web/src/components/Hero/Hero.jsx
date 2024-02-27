@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classes from "./Hero.module.css";
 import { HeroIMG } from "./HeroIMG";
 
-export const Hero = () => {
+export const Hero = ({ heroRef, benefitsRef }) => {
   const [fontIndex, setFontIndex] = useState(0);
   const fonts = [
     "easyFont1",
@@ -24,8 +24,14 @@ export const Hero = () => {
 
   const currentFontClass = classes[fonts[fontIndex]];
 
+  const handleButtonClick = () => {
+    if (benefitsRef.current) {
+      benefitsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className={`${classes.container}`}>
+    <div className={`${classes.container}`} ref={heroRef}>
       <div className={`${classes.wrapper}`}>
         <div className={`${classes.heroTextWrapper}`}>
           <div className={`${classes.heroTitle}`}>
@@ -37,10 +43,10 @@ export const Hero = () => {
             </h1>
           </div>
           <div className={`${classes.heroInfo}`}>
-            <h2>Un tipo de agencia digital...algo asi.</h2>
-            <p>Revisiones ilimitadas y una tarifa mensual fija.</p>
+            <h2>Un tipo de agencia digital o algo así</h2>
+            <p>Te ayudamos a crear tu presencia en línea.</p>
           </div>
-          <button>Ver detalles</button>
+          <button onClick={handleButtonClick}>Ver detalles</button>
         </div>
         <div className={`${classes.heroImgWrapper}`}>
           <HeroIMG img={"https://i.postimg.cc/tgt8GYV2/easy-web.png"} />

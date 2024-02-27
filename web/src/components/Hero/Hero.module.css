@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 80px;
-  padding-bottom: 80px;
+  flex-direction: column;
 }
 
 .wrapper{
@@ -93,8 +93,9 @@ h1{
 .heroInfo h2{
   font-family: Caveat;
   font-weight: bolder;
-  font-size: 48px;
+  font-size: 45px;
   color: #272727;
+  text-align: start;
 }
 
 .heroInfo p{

@@ -1,22 +1,57 @@
-.NavContainer{
+.NavContainer {
   width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #000000;
+  background-color: #000000cc;
   color: white;
   border-bottom: 2px solid white;
   position: fixed;
-  top: 0  ;
+  top: 0;
+  z-index: 9999;
+  font-family: "Bitter";
+
 }
 
-.linkContainer{
+.NavLogo img {
+  width: 60px;
+  margin-left: 20px;
+}
+
+.linkContainer {
   display: flex;
 }
 
-.link{
+.link {
   padding: 10px 10px;
   margin: 0px 5px;
   cursor: pointer;
+  color: rgb(190, 190, 190);
+  transition: ease-in-out all .3s;
+}
+
+.link:hover{
+  transition: ease-in-out all .3s;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .NavLogo{
+    display: none;
+  }
+
+  .NavContainer{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .linkContainer{
+    display: flex;
+    width: 100%;
+  }
+
+  .link{
+    width: 100%;
+  }
 }

@@ -1,0 +1,93 @@
+.FAQContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.FAQContainer svg{
+  background: rgb(241, 12, 207);
+background: linear-gradient(180deg, #F196E4 85%, #F196E4 100%);
+padding-top: 100px;
+}
+
+.FAQContainer h3{
+  font-size: 36px;
+  font-family: "Bitter";
+}
+
+.accordionWrapper {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 50%;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px 0px;
+}
+
+.container {
+  width: 50%;
+  text-align: start;
+}
+
+.container button {
+  border: none;
+  padding: 10px 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  padding: 10px 0px;
+  font-family: "Bitter";
+  line-height: 1rem;
+  font-weight: bold;
+  position: sticky;
+  top: 0; 
+  z-index: 1;
+}
+
+.FAQContainer span {
+  padding-top: 5px;
+  font-weight: bold;
+  display: flex;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Bitter";
+  cursor: pointer;
+  padding: 10px 0px;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.panel {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  margin: 0px 30px;
+  font-family: "Bitter";
+  font-size: 16px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.293) !important;
+  height: auto;
+  padding: 10px 0px;
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.faqIcon{
+  color: gray;
+}
+
+@media screen and (max-width:768px) {
+  .accordionWrapper{
+    width: 80%;
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  min-height: 100%;
+  background-color: #F196E4;
+  padding-bottom: 40px;
+}
+
+.container svg{
+  background: #f196e4;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 80%, #F196E4 100% );
+  padding-top: 20px;
+}
+
+.worksSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.rowOne{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.squareCard img{
+  border-radius: 20px;
+}
+
+.squareCard{
+  width: 300px;
+  height: 516px;
+  padding: 0px 20px;
+}
+
+.squareCard img{
+  background-color: white;
+  height: 300px;
+  max-width: 280px;
+  box-shadow: 0px 5px 0px 0px #00000050;
+}
+
+.cardText h3{
+  font-size: 32px ;
+  font-family: "Bitter";
+}
+
+.cardText p{
+  font-size: 18px;
+  font-family: "Quicksand";
+}
+
+.cardText{
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .rowOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px 0px; 
+    width: 100%;
+  }
+
+  .squareCard{
+    padding: 0px;
+    margin-bottom: 20px; 
+  }
+
+  .squareCard img{
+    background-color: white;
+    height: auto; 
+    max-width: 300px;
+    box-shadow: 0px 5px 0px 0px #00000050;
+  }
+}

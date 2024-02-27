@@ -1,0 +1,68 @@
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container svg{
+  background: rgb(249,218,74);
+  background: linear-gradient(180deg, rgba(249,218,74,1) 0%, rgba(249,218,74,1) 77%, rgba(255,255,255,1) 100%);
+}
+
+h2{
+  font-size: 36px;
+  font-family: Bitter;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.benefitsCardsContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  justify-content: center; 
+}
+
+.benefitCards{
+  width: 100%; 
+  max-width: 400px; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cardIMG img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-family: "Kalnia";
+}
+
+.cardText{
+  font-size: 18px;
+  font-family: "Quicksand";
+}
+
+@media screen and (max-width:768px) {
+  .cardsContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
